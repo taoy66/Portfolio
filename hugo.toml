@@ -1,5 +1,5 @@
 baseURL = "https://taoy66.github.io/portfolio/"
-canonifyURLs = false
+canonifyURLs = true
 relativeURLs = false
 languageCode = "en-us"
 title = "Tao Yan"
@@ -48,19 +48,20 @@ theme = "PaperMod"
     weight = 10
 
   [[menu.main]]
-    name = "Experience"
-    url  = "/experience/"
+    name = "Projects"
+    url  = "/projects/"
     weight = 20
 
   [[menu.main]]
-    name = "Projects"
-    url  = "/projects/"
+    name = "Certificates"
+    url  = "/certificates/"
     weight = 30
 
   [[menu.main]]
-    name = "Skills"
-    url  = "/skills/"
+    name = "Experience"
+    url  = "/experience/"
     weight = 40
+
 
   [params.assets]
    customCSS = ["css/extended/nav.css"]
