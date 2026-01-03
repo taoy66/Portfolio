@@ -1,6 +1,6 @@
 baseURL = "https://taoy66.github.io/Portfolio/"
-canonifyURLs = true
-relativeURLs = false
+canonifyURLs = false
+relativeURLs = true
 languageCode = "en-us"
 title = "Tao Yan"
 theme = "PaperMod"
@@ -15,20 +15,20 @@ theme = "PaperMod"
     title = "Tao Yan"
     subtitle = """**Mechanical Design & R&D** • Additive Manufacturing • Heat Transfer
 **AI-assisted Engineering** and reliable mechanism design"""
-    imageUrl = "images/avatar.jpg"
+    imageUrl = "images/avatar.JPG"
     imageWidth = 260
     imageHeight = 260
     imageTitle = "Tao Yan"
 
     [[params.profileMode.buttons]]
       name = "Resume"
-      url = "/resume/"
+      url = "resume/"
 
 
   # social icons row under the hero
   [[params.socialIcons]]
     name = "email"
-    url  = "tao.tom.yan@gmail.com"
+    url  = "mailto:tao.tom.yan@gmail.com"
 
   [[params.socialIcons]]
     name = "linkedin"
@@ -40,28 +40,27 @@ theme = "PaperMod"
 
 
 
+[params.assets]
+  customCSS = ["css/extended/nav.css"]
+
 # Top nav tabs -> separate pages
 [menu]
   [[menu.main]]
     name = "Home"
-    url  = "/"
+    url  = ""
     weight = 10
 
   [[menu.main]]
     name = "Projects"
-    url  = "/projects/"
+    url  = "projects/"
     weight = 20
 
   [[menu.main]]
     name = "Certificates"
-    url  = "/certificates/"
+    url  = "certificates/"
     weight = 30
 
   [[menu.main]]
     name = "Experience"
-    url  = "/experience/"
+    url  = "experience/"
     weight = 40
-
-
-  [params.assets]
-   customCSS = ["css/extended/nav.css"]
