@@ -6,7 +6,7 @@ title = "Tao Yan"
 theme = "PaperMod"
 
 [pagination]
-  pagerSize = 5
+  pagerSize = 8
 
 [params]
   # turn on the profile hero for HOME page
