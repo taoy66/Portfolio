@@ -1,6 +1,6 @@
 baseURL = "https://taoy66.github.io/Portfolio/"
-canonifyURLs = false
-relativeURLs = true
+canonifyURLs = true
+relativeURLs = false
 languageCode = "en-us"
 title = "Tao Yan"
 theme = "PaperMod"
