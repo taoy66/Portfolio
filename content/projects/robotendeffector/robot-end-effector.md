@@ -6,10 +6,13 @@ description: A custom, lightweight robot End-Effector designed and optimized in 
 summary:  A custom, lightweight robot End-Effector designed and optimized in SolidWorks, built using FDM 3D printing.
 hidemeta: true
 
+
+weight: 201
 cover:
   image: "images/end-effector-hero.jpg"
   alt: "Robotic end-effector"
   relative: true
+
 
 tags: [Robotics, SolidWorks, FEA, DfMA, 3D Printing]
 ---
@@ -19,9 +22,6 @@ tags: [Robotics, SolidWorks, FEA, DfMA, 3D Printing]
 **Tools:** SolidWorks (CAD & Simulation), Bambu Studio, FDM (PLA)
 
 I designed and fabricated a custom, lightweight robot End-Effector optimized for Fused Deposition Modeling (FDM). The project focused on **Design for Assembly (DfMA)** principles to minimize part count, eliminate post-processing, and maximize the payload capacity of a constrained robotic arm.
-
-![Printed Gripper Parts](roboEF_images/Screenshot 2025-12-10 at 8.51.15 PM.jpg)
-*The final printed assembly, fabricated on a Bambu Lab A1 Mini.*
 
 ---
 
@@ -44,10 +44,10 @@ I streamlined the assembly into four unique printable components: a central Serv
 * **Tolerancing:** Applied a uniform **0.2 mm clearance gap** on all moving parts to compensate for material shrinkage and prevent joint fusion.
 
 *Four CAD Models*
-![End-effector Parts](roboEF_images/End-effector_Parts.png)
+![](/projects/roboEF_images/End-effector_Parts.png)
 
 *Robot End-effector Kinematics Animation*
-![End-effector Kinematics Animation](roboEF_images/Kinematics.gif)
+![](/projects/roboEF_images/Kinematics.gif)
 
 ---
 
@@ -62,7 +62,7 @@ Before fabrication, I validated the geometry using SolidWorks Simulation.
 
 
 
-![FEA Stress Plot](roboEF_images/FEA_Stress.jpg)
+![FEA Stress Plot](/projects/roboEF_images/FEA_Stress.jpg)
 
 *Finite Element Analysis highlighting stress concentrations at the pivots.*
 
@@ -73,12 +73,12 @@ Before fabrication, I validated the geometry using SolidWorks Simulation.
 Parts were fabricated on a **Bambu Lab A1 Mini** using PLA with a **15% Grid Infill** to reduce mass.
 
 *Printed Parts*
-![Printed Parts](roboEF_images/printedParts.JPG)
+![Printed Parts](/projects/roboEF_images/printedParts.JPG)
 
 I performed metrology on critical features to verify the printer's dimensional accuracy. The parts achieved a maximum deviation of **0.03 mm** from the CAD model. Vertical holes (designed at 3.00 mm) printed at 2.97 mm, validating the necessity of the pre-engineered clearance gaps.
 
 *Comparison of CAD dimensions vs. physical printed parts.*
-![Dimensional Accuracy Table](roboEF_images/Dimensional_Accuracy_Table.png)
+![Dimensional Accuracy Table](/projects/roboEF_images/Dimensional_Accuracy_Table.png)
 
 
 ---

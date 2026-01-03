@@ -40,9 +40,10 @@ params:
     imageWidth: 260
     imageHeight: 260
     imageTitle: "Tao Yan"
-    buttons:
-      - name: "Resume"
-        url: "resume/"
+
+    #buttons:
+    #  - name: "Resume"
+    #   url: "resume/"
 
   socialIcons:
     - name: "email"
