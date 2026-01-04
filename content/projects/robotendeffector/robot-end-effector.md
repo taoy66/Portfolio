@@ -62,7 +62,7 @@ Before fabrication, I validated the geometry using SolidWorks Simulation.
 
 
 
-![FEA Stress Plot](/projects/roboEF_images/FEA_Stress.jpg)
+![](/projects/roboEF_images/FEA_Stress.JPG)
 
 *Finite Element Analysis highlighting stress concentrations at the pivots.*
 
