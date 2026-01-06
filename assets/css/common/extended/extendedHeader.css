@@ -1,6 +1,0 @@
-/* bigger logo + menu text */
-.logo a { font-size: 24px; font-weight: 800; }
-#menu a { font-size: 24px; }
-
-/* taller header (optional) */
-:root { --header-height: 80px; }
