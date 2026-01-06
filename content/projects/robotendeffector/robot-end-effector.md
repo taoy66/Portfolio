@@ -8,10 +8,10 @@ hidemeta: true
 
 
 weight: 201
+
 cover:
-  image: "/images/end-effector-hero.JPG"
-  alt: "Robotic end-effector"
-  relative: false
+  image: "Coverimages/end-effector-hero.jpg"
+
 
 
 tags: [Robotics, SolidWorks, FEA, DfMA, 3D Printing]

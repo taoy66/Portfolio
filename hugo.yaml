@@ -5,8 +5,29 @@ languageCode: "en-us"
 title: "Tao Yan"
 theme: "PaperMod"
 
-pagination:
-  pagerSize: 8
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: ""
+      weight: 10
+    - identifier: projects
+      name: Projects
+      url: "projects/"
+      weight: 20
+    - identifier: certificates
+      name: Certificates
+      url: "certificates/"
+      weight: 30
+    - identifier: experience
+      name: Experience
+      url: "experience/"
+      weight: 40
+    - identifier: search
+      name: Search
+      url: "search/"
+      weight: 50
 
 params:
 
@@ -20,23 +41,16 @@ params:
   # for enchanced SEO
   env: production
 
-    # List View
-  hideDescriptionInList: false
-
-  # cover image for posts
-  cover:
-    hiddenInList: false # hide on list pages and home
-    hiddenInSingle: false # hide on single pages
 
 
-
+  # Home Page Settings
   profileMode:
     enabled: true
     title: "Tao Yan"
     subtitle: |
       **Mechanical Design & R&D** • Additive Manufacturing • Heat Transfer
       **AI-assisted Engineering** and reliable mechanism design
-    imageUrl: "images/avatar.JPG"
+    imageUrl: "Coverimages/avatar.JPG"
     imageWidth: 260
     imageHeight: 260
     imageTitle: "Tao Yan"
@@ -44,6 +58,14 @@ params:
     #buttons:
     #  - name: "Resume"
     #   url: "resume/"
+
+  # List View
+  hideDescriptionInList: false
+
+   # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
   socialIcons:
     - name: "email"
@@ -53,26 +75,22 @@ params:
     - name: "github"
       url: "https://github.com/taoy66"
 
+ # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
 
-
-menu:
-  main:
-    - identifier: "home"
-      name: "Home"
-      url: ""
-      weight: 10
-    - identifier: "projects"
-      name: "Projects"
-      url: "projects/"
-      weight: 20
-    - identifier: "certificates"
-      name: "Certificates"
-      url: "certificates/"
-      weight: 30
-    - identifier: "experience"
-      name: "Experience"
-      url: "experience/"
-      weight: 40
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 
 # allow HTML in MD

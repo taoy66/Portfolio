@@ -30,7 +30,7 @@
 }
 
 .logo a {
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 700;
 }
 
@@ -44,7 +44,7 @@
 }
 
 #theme-toggle svg {
-    height: 20px;
+    height: 18px;
 }
 
 button#theme-toggle {
@@ -73,7 +73,7 @@ body:not(.dark) #sun {
 }
 
 #menu a {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 #menu .active {
