@@ -10,7 +10,7 @@ hidemeta: true
 weight: 201
 
 cover:
-  image: "Coverimages/end-effector-hero.jpg"
+  image: "Coverimages/end-effector-hero.JPG"
 
 
 
