@@ -12,13 +12,13 @@ menu:
       name: Home
       url: ""
       weight: 10
-    - identifier: projects
-      name: Projects
-      url: "projects/"
+    - identifier: project
+      name: Project
+      url: "project/"
       weight: 20
-    - identifier: certificates
-      name: Certificates
-      url: "certificates/"
+    - identifier: certificate
+      name: Certificate
+      url: "certificate/"
       weight: 30
     - identifier: experience
       name: Experience
@@ -47,9 +47,7 @@ params:
   profileMode:
     enabled: true
     title: "Tao Yan"
-    subtitle: |
-      **Mechanical Design & R&D** • Additive Manufacturing • Heat Transfer
-      **AI-assisted Engineering** and reliable mechanism design
+    subtitle: "Hi 👋 I'm Tao, a mechanical engineer who creates, develops, and refines mechanical products and manufacturing systems from concept to production using engineering first principles. I bring hands-on expertise in biopharma manufacturing and product development—designing parts, selecting materials, creating technical drawings, and validating performance through design of experiments (DOE) and engineering analysis. In GMP pharma environments, I drove system design, commissioning, tech transfers, and troubleshooting across downstream equipment and automation to improve reliability and reduce repeat downtime."
     imageUrl: "Coverimages/avatar.JPG"
     imageWidth: 260
     imageHeight: 260
