@@ -92,6 +92,6 @@ The final prototype met all initial performance metrics:
 * **Efficiency:** The entire mechanism was assembled in **under 5 minutes** with **zero post-processing** (no sanding/filing) required.
 
 
-![](/projects/roboEF_images/End-effector_Animation.gif)
+![](/projects/roboEF_images/End-effector-Animation.gif)
 
 ---
