@@ -83,7 +83,36 @@ I performed metrology on critical features to verify the printer's dimensional a
 
 ---
 
-## 5. Final Results
+## 5. Servo Motor Control (Arduino)
+
+To validate the gripper motion, I used an Arduino sketch to drive the **MG90S micro servo** through a simple open-loop sweep.
+
+```cpp
+#include <Servo.h>
+
+Servo myServo;  // Create servo object
+
+void setup() {
+  myServo.attach(9);  // Attach servo signal to pin 9
+}
+
+void loop() {
+  myServo.write(0);    // Move servo to 0 degrees
+  delay(3000);         // Wait 3 seconds
+  myServo.write(90);   // Move servo to 90 degrees
+  delay(3000);
+  myServo.write(0);    // Return to 0 degrees
+  delay(3000);
+}
+```
+
+**Notes:**
+- **Pin 9** is the PWM output signal.
+- Power the servo from a stable **5 V** supply (don’t rely on the Arduino 5 V pin if the servo stalls).
+
+---
+
+## 6. Final Results
 
 The final prototype met all initial performance metrics:
 

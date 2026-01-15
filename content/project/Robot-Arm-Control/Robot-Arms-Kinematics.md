@@ -7,7 +7,7 @@ summary:  Programming to calculate the forward kinematics for my SO-101 robot ar
 hidemeta: true
 
 
-weight: 203
+weight: 204
 cover:
   image: ""
   alt: "Robot Arm Forward Kinematics"
