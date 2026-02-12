@@ -69,7 +69,7 @@ Cast stack used in the concept:
 
 
 
-# ### Software
+### Software
 ![](/projects/ControlLimiter_images/BlockDiagramCL.png)
 * Arduino C++ loop that samples the analog input at a fixed rate
 * Threshold logic with basic filtering to reduce false triggers
